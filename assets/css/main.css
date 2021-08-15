@@ -17,8 +17,6 @@
    left: 40%;
     width: 150px;
 }
-.header {
-}
 .top-bar {
     height: 60px;
     display: flex;
@@ -38,30 +36,41 @@
 .menu-item:hover {
     color:  var(--primary-color);
 }
-.nav-menu {
-    display: block;
-}
 .top-heading,.auth-form {  
     flex: 1;
 }
 .nav-menu {
-    position: relative;
     margin-top: 60px;
     background-color: #252525;
     width: 100%;
     line-height: 70px;
     border-radius: 40px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}  
+.logo-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    margin-top: -55px;
+
+}
+.left-menu {
+    text-align: right;
+} 
+.menu-item {
+    display: inline-block;
+    padding: 0 20px;
 }
 .logo {
-    position: absolute;
-    top: 50px;
-    left: 700px;
     background-color: #252525;
-    padding: 30px;
+    padding: 20px;
     border-radius: 100px;
+}
+.right-menu {
+    text-align: left;
 }
 .nav-menu a {
     color: var(--white-color);
@@ -94,9 +103,6 @@
 .menu-list {
     text-align: center;
     padding: 30px 0;
-}
-.menu-item {
-    display: inline-block;
 }
 .card-group {
     display: flex;
