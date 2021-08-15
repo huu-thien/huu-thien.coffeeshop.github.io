@@ -1,0 +1,196 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .mb-24 {
+        margin: 0;
+    }
+    .header-mobile {
+        display: block;
+    }
+    .section-heading {
+        font-size: 2.5rem;
+    }
+    .mark {
+        font-size: 2rem;
+    }
+    .introduce-title p {
+        padding: 30px 60px;
+    }
+    .card-view {
+        padding-bottom: 20px;
+    }
+    .card-view:hover {
+        transform: unset;
+    }
+    .card-group-vertical {
+        box-shadow: 0 1px 4px var(--primary-color);
+        margin-bottom: 20px;
+    }
+    .service + .service {
+        margin-top: 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .pl-48-md {
+        padding-left: 48px;
+    }
+    .mb-30-md {
+        margin-bottom: 30px;
+    }
+    .form-img {
+        height: 560px;
+    }
+    .form-booking {
+        max-width: 93%;
+    }   
+    .form-input {
+        padding: 10px 35px;
+    }
+    .info-list h2 {
+        font-size: 1.2rem;
+    }
+    .info-item {
+        font-size: 1rem;
+        padding: 4px 0;
+    }
+    .info-item i {
+        font-size: 1.2rem;
+    }
+    .footer-wraper p {
+        font-size: 1.2rem;
+    }
+    .footer-absulute {
+        top: 150px;
+    }
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .pb-20-sm {
+        padding-bottom: 20px;
+    }
+    .pl-25-sm {
+        padding-left:25px;
+    }
+    .header-mobile .logo {
+        position: absolute;
+        top: -20%;
+        left: 36%;
+        width: 125px;
+    }
+    .section-heading {
+        font-size: 1.65rem;
+    }
+    .mark {
+        font-size: 1.6rem;
+    }
+    .menu-list {
+        padding: 10px 0 ;
+    }
+    .menu-item {
+        padding: 10px 0;
+    }
+    .btn {
+        min-width: 200px;
+    }
+    .card-thumnail-sm {
+        margin-left: 10px;
+    }
+    .card-about {
+        padding-left: 20px;
+    }
+    .card-title {
+        font-size: 1.6rem;
+    }
+    .card-about .card-dsc {
+        font-size: 1.2rem;
+    } 
+    .card-view {
+        padding-left: 40px;
+    }
+    .card-group-vertical {
+        margin-left: 20px;
+    }
+    .form-img {
+        height: 560px;
+    }
+    .form-field {
+        padding: 10px;
+    }
+    .form-label {
+        top: 22px;
+        left: 20px; 
+        font-size: 1.2rem;
+        padding-left: 16px;
+    }
+    .form-input {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        min-width: 200px;
+    }
+    .booking-section {
+        max-width: 110%;
+        top: 50px;
+        margin-left: 50px;
+    }
+    .btn-booking {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    } 
+    .card-thumnail-big {
+        width: 190px;
+      margin-bottom: 60px;
+    }
+    .card-title-news {
+        line-height: 20px ;
+        font-weight: 600;
+        font-size: 1.6rem;
+        padding: 8px 0;
+        padding-right: 20px;
+    }
+    .card-dsc {
+        line-height: 25px;
+    }
+    .card-group {
+        padding: 0;
+    }
+    .card-dsc-fb {
+        padding-bottom: 20px;
+    }
+    .card-thumnail-ava {
+        padding-top: 20px;
+    }
+    .service {
+        margin-left: 30px;
+    }
+    .service span {
+        font-size: 1.2rem;
+    }
+    .info-list h2 {
+        font-size: 1.6rem;
+    }
+    .info-item {
+        font-size: 1.2rem;
+        padding: 5px 0;
+    }
+    .footer-wraper p {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .footer-wraper {
+        padding-left: 40px;
+    }
+    .footer-absulute {
+        top: 150px;
+    }
+}

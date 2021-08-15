@@ -1,0 +1,102 @@
+:root {
+    --primary-color:#e7b45a; 
+    --text-color: #707070;
+    --white-color: #fff;
+    --black-color: #000;
+    --second-primary-color: #eae7e0;
+}
+html {
+    font-size: 62.5%; 
+    line-height: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button{
+    outline: none;
+}
+input{
+    line-height: normal;
+}
+label,
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+    padding-left: none;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    border-radius: 20px;
+    padding: 10px 20px;
+    min-width:  150px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 20px;
+} 
+.btn-default {
+    background-color: var(--second-primary-color);
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: var(--text-color);
+    transition:  all linear .2s;
+}
+.section-heading {
+    font-size: 3.6rem;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.mark {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.section {
+    margin-bottom: 90px;
+}
+.white-color {
+    color:  var(--white-color);
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}

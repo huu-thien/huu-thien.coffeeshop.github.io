@@ -1,0 +1,381 @@
+/* BEGIN HEADER CSS */
+.header-mobile {
+    height: 80px;
+    background-color: #252525;
+    position: relative;
+    display: none;
+}
+.header-mobile i {
+    font-size: 3rem; 
+    line-height: 80px;
+    padding-left: 20px;
+    color: #ccc;
+}
+.header-mobile .logo {
+    position: absolute;
+    top: -20%;
+   left: 40%;
+    width: 150px;
+}
+.header {
+}
+.top-bar {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted #ccc;
+}
+.top-bar-heading {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.auth-form {
+    text-align: right;
+}
+.menu-item:hover {
+    color:  var(--primary-color);
+}
+.nav-menu {
+    display: block;
+}
+.top-heading,.auth-form {  
+    flex: 1;
+}
+.nav-menu {
+    position: relative;
+    margin-top: 60px;
+    background-color: #252525;
+    width: 100%;
+    line-height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    background-color: #252525;
+    padding: 30px;
+    border-radius: 100px;
+}
+.nav-menu a {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    transition:  all linear .2s;
+}
+/* END HEADER CSS */
+
+/* BEGIN INTRODUCE SECTION CSS */
+.time-work {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.introduce-title p {
+    text-align: center;
+    font-size: 1.4rem;
+    padding : 30px 0;
+    color: #707070;
+    line-height: 25px;
+    letter-spacing: 1px;
+    border-top: 3px dotted var(--primary-color);
+}
+/* END INTRODUCE SECTION CSS */
+
+/* BEGIN PRODUCT SECTION CSS */
+.product-section {
+    background-color: var(--second-primary-color);
+}
+.menu-list {
+    text-align: center;
+    padding: 30px 0;
+}
+.menu-item {
+    display: inline-block;
+}
+.card-group {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.card-about .card-dsc {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+}
+.card-about {
+    padding-left: 30px;
+}
+.price {
+    font-size: 1.3rem;
+    line-height: 30px;
+    transition:  all linear .1s;
+}
+.card-title {
+    color: #555;
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all linear .2s;
+}
+.card-group-vertical {
+    display: flex;
+    flex-direction: column;
+}
+.card-thumnail-sm {
+    width: 68px;
+    border-radius: 50%;
+    clear: both;
+    float: left;
+    cursor: pointer;
+}
+.card-group:hover .card-title {
+    color: var(--primary-color);
+}
+.btn-default:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.card-group:hover .price {
+    font-weight: 600;
+    color: #000;
+}
+
+/* END PRODUCT SECTION CSS */
+
+/* BEGIN VIEW SECTION CSS */
+.card-view {
+    transition: transform linear .2s;
+    will-change: transform;
+    cursor: pointer;
+}
+.card-view:hover {
+    transform: translateY(-4px);
+    opacity: 0.9;
+}
+/* END VIEW SECTION CSS */
+
+/* BEGIN FEEDBACK SECTION CSS */
+.card-thumnail-ava {
+    width: 150px;
+    border-radius: 50%;
+    clear: both;
+    float: left;
+    cursor: pointer;
+}
+.card-title-fb {
+   padding: 30px;
+    text-align: center;
+    font-size: 2.6rem !important;
+    font-family: 'Dancing Script', cursive;
+}
+.card-dsc-fb {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 0 16px;
+}
+/* END FEEDBACK SECTION CSS */
+/* BEGIN BOOKING SECTION CSS */
+
+.booking-time p {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+.booking-time .bold {
+    font-weight: 700;
+}
+.booking-time   .phone-nume {
+    color: var(--primary-color);
+}
+.form-field  {
+    text-align: center;
+    padding: 16px;
+    position: relative;
+}
+.form-input {
+    padding: 10px 20px;
+    outline: none;
+    border: 1.6px solid #eee;
+    border-radius: 20px;
+    width: 80%;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: all ease .25s;
+    margin-bottom: 12px;
+}
+.form-input:focus {
+    border-color: #6a5af9;
+}
+.form-input:not(:placeholder-shown) + .form-label,
+.form-input:focus + .form-label {
+    /* color: red; */
+    top: -10px;
+    padding: 0 10px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color:  #fff;
+}
+.form-label {
+    position: absolute;
+    top: 27px;  
+    left: 75px; 
+    color: #999;
+    font-size: 1.4rem;
+    user-select: none;
+    pointer-events: none;
+    transition: all ease .25s;
+}
+.form-booking {
+    background-color: #e7b45a;
+}
+.btn-booking {
+    border: 1px solid #fff;
+    transition: all linear .2s;
+    font-size: 1.5rem;
+}
+.btn-booking:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+.t-center {
+    text-align: center;
+}
+.po-re-booking {
+    position: relative;
+}
+.booking-section {
+    position: absolute;
+    top: 100px;
+    max-width: 100%;
+}
+/* END BOOKING SECTION CSS */
+
+/* BEGIN NEWS SECTION CSS */
+.card-thumnail-big {
+    width: 263px;
+    float: left;
+    cursor: pointer;
+}
+.card-about-news {
+    height: 263px;
+}
+.card-title-news {
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding: 20px 0;
+    padding-right: 40px;
+}
+.card-dsc-news {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3 !important;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    padding-right: 40px;
+}
+.time-box i {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+.time-box time {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+/* END NEWS SECTION CSS */
+
+ /* BEGIN SERVICE SECTION CSS */
+.service {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+}
+
+.service img {
+    padding-right: 30px;
+}
+.service span {
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: var(--primary-color);
+    padding-right: 20px;
+}
+/* END SERVICE SECTION CSS */
+
+/* BEGIN FOOTER SECTION CSS */
+.footer {
+    margin-top: -50px;
+}
+.footer-map {
+    width: 90%;
+}
+.info-list h2{
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+    color: #eee;
+    font-weight: 600;
+}
+.info-item {
+    padding: 10px 0;
+    font-size: 1.4rem;
+}
+.info-item i {
+    padding-right: 16px;
+    color: #b7b7b7;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.info-item i:hover {
+    color: var(--primary-color);
+}
+.info-item a,
+.info-item span {
+    color: #eee;
+    transition: all linear .2s;
+}
+.info-item a:hover {
+    color: var(--primary-color);
+}
+.footer-wraper p {
+    line-height: 1.6;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    color: #eee;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-top: 30px;
+    border-top: 2px solid rgb(235 235 235 / 16%);
+    width: 70%;
+}
+.po-re-footer {
+    position: relative;
+}
+.footer-absulute {
+    position: absolute;
+    top: 200px;
+    max-width: 100%;
+}
+/* END FOOTER SECTION CSS */
+
+
+
